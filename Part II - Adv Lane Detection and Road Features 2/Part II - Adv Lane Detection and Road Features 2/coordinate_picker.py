@@ -1,4 +1,4 @@
-# Written by Katya/Aral/Jasmina
+## Written by Katya/Aral/Jasmina
 # importing the module
 import cv2
 
@@ -19,7 +19,7 @@ def click_event(event, x, y, flags, params):
   cv2.putText(img, str(x) + ',' +
      str(y), (x,y), font,
      1, (255, 0, 0), 2)
-  cv2.imshow('test_resized/bridge.jpg', img)
+  cv2.imshow('test_resized/norwayFerry.jpg', img)
 
  # checking for right mouse clicks
  if event==cv2.EVENT_RBUTTONDOWN:
@@ -44,20 +44,20 @@ def click_event(event, x, y, flags, params):
      str(g) + ',' + str(r),
      (x,y), font, 1,
      (255, 255, 0), 2)
-  cv2.imshow('test_resized/bridge.jpg', img)
+  cv2.imshow('test_resized/norwayFerry.jpg', img)
 
 # driver function
 if __name__=="__main__":
 
  # reading the image
- img = cv2.imread('test_resized/bridge.jpg', 1)
+ img = cv2.imread('test_resized/norwayFerry.jpg', 1)
 
  # displaying the image
- cv2.imshow('test_resized/bridge.jpg', img)
+ cv2.imshow('test_resized/norwayFerry.jpg', img)
 
  # setting mouse handler for the image
  # and calling the click_event() function
- cv2.setMouseCallback('test_resized/bridge.jpg', click_event)
+ cv2.setMouseCallback('test_resized/norwayFerry.jpg', click_event)
 
  # wait for a key to be pressed to exit
  cv2.waitKey(0)

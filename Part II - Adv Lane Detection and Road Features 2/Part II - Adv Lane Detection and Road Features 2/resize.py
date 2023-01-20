@@ -1,4 +1,4 @@
-# Written by Katya/Aral/Jasmina
+## Written by Katya/Aral/Jasmina
 # Takes pictures from a file and resizes them to a given size (1280x720 in our case)
 # and saves them in a new folder
 # This is necessary because the algorithm only works for pictures of a certain size
